@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <com.grishberg.horizontallayout.HorizontalSpacingLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#eeeeee"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        app:childWidth="48dp"
+        app:stretchable="false">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00ff00" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00ff00" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00ff00" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00ff00" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:background="#00ff00" />
+
+    </com.grishberg.horizontallayout.HorizontalSpacingLayout>
+</LinearLayout>

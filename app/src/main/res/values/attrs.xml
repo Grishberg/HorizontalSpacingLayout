@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalSpacingLayout">
+        <!-- Set childWidth width to every child -->
+        <attr name="childWidth" format="dimension" />
+        <!-- If stretchable is true then all items width will looks like LL.weight = 1 -->
+        <attr name="stretchable" format="boolean" />
+    </declare-styleable>
+</resources>
